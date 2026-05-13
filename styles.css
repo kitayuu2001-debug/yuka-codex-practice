@@ -1,4 +1,17 @@
 :root {
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
+  --bg-0: #020617;
+  --bg-1: #071337;
+  --bg-2: #0c1f57;
+  --silver-0: #f4f7ff;
+  --silver-1: #d9e0f2;
+  --silver-2: #a6b4d4;
+  --neon: #46c2ff;
+  --neon-strong: #1aa7ff;
+  --line: #8aa2d64b;
+  --text: #eaf0ff;
+  --muted: #c8d5f7;
+=======
   --bg: #f8fafc;
   --text: #0f172a;
   --muted: #475569;
@@ -6,6 +19,7 @@
   --primary-dark: #1d4ed8;
   --white: #ffffff;
   --line: #dbe3ee;
+>>>>>>> main
 }
 
 * {
@@ -14,6 +28,28 @@
 
 body {
   margin: 0;
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
+  font-family: "Orbitron", "Inter", "Yu Gothic", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 20% -10%, #2f6dff55 0%, #0000 35%),
+    radial-gradient(circle at 90% 10%, #56d2ff44 0%, #0000 32%),
+    linear-gradient(160deg, var(--bg-0), var(--bg-1) 45%, var(--bg-2));
+  line-height: 1.7;
+}
+
+.noise {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(#ffffff0f 0.7px, transparent 0.7px);
+  background-size: 3px 3px;
+  opacity: 0.18;
+}
+
+.container {
+  width: min(1080px, 92%);
+=======
   font-family: "Inter", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
   color: var(--text);
   background: var(--bg);
@@ -22,10 +58,61 @@ body {
 
 .container {
   width: min(1040px, 92%);
+>>>>>>> main
   margin: 0 auto;
 }
 
 .hero {
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
+  padding: 96px 0 84px;
+}
+
+.hero-inner {
+  background: linear-gradient(135deg, #c7d4ff21, #e7f3ff10);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  padding: 42px;
+  box-shadow:
+    0 0 0 1px #ffffff20 inset,
+    0 14px 40px #021236aa,
+    0 0 34px #2e8fff33;
+  backdrop-filter: blur(6px);
+}
+
+.chip {
+  display: inline-block;
+  margin: 0;
+  padding: 5px 12px;
+  border-radius: 999px;
+  color: #00122f;
+  background: linear-gradient(180deg, var(--silver-0), var(--silver-2));
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  font-weight: 800;
+}
+
+.kicker {
+  margin: 14px 0 0;
+  letter-spacing: 0.22em;
+  color: #9ec8ff;
+  font-size: 0.82rem;
+}
+
+h1 {
+  margin: 16px 0 0;
+  font-size: clamp(2.1rem, 5.8vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 26px #58c8ff55;
+}
+
+h1 span {
+  color: var(--neon);
+}
+
+.lead {
+  max-width: 670px;
+=======
   background: linear-gradient(135deg, #e2e8f0, #f8fafc);
   padding: 88px 0 72px;
 }
@@ -50,6 +137,7 @@ h1 {
 
 .lead {
   max-width: 640px;
+>>>>>>> main
   margin: 20px 0 0;
   color: var(--muted);
 }
@@ -63,6 +151,35 @@ h1 {
 
 .btn {
   display: inline-block;
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
+  padding: 12px 20px;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  transition: 0.2s ease;
+}
+
+.btn.primary {
+  color: #001127;
+  background: linear-gradient(180deg, #b7edff, var(--neon));
+  box-shadow: 0 6px 20px #35b8ff55;
+}
+
+.btn.primary:hover {
+  transform: translateY(-1px);
+  background: linear-gradient(180deg, #cbf4ff, var(--neon-strong));
+}
+
+.btn.ghost {
+  color: var(--silver-1);
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, #dbe8ff15, #94b7ff0a);
+}
+
+.section {
+  padding: 74px 0;
+=======
   padding: 12px 18px;
   border-radius: 12px;
   text-decoration: none;
@@ -86,20 +203,51 @@ h1 {
 
 .section {
   padding: 70px 0;
+>>>>>>> main
 }
 
 h2 {
   margin-top: 0;
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
+  font-size: clamp(1.5rem, 3.2vw, 2.3rem);
+  letter-spacing: 0.1em;
+  color: #dff3ff;
+}
+
+.grid {
+  margin-top: 24px;
+=======
   font-size: clamp(1.5rem, 3vw, 2.1rem);
 }
 
 .grid {
   margin-top: 22px;
+>>>>>>> main
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
 }
 
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
+.card,
+.panel {
+  background: linear-gradient(150deg, #f1f5ff12, #a4bcf512);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 22px;
+  box-shadow: 0 0 0 1px #ffffff14 inset;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #9bd9ff;
+}
+
+.alt {
+  background: linear-gradient(180deg, #5f79d012, #5ad0f912);
+  border-top: 1px solid #9ab0e32f;
+  border-bottom: 1px solid #9ab0e32f;
+=======
 .card {
   background: var(--white);
   border: 1px solid var(--line);
@@ -109,6 +257,7 @@ h2 {
 
 .alt {
   background: #eef2ff;
+>>>>>>> main
 }
 
 .split {
@@ -118,11 +267,23 @@ h2 {
   align-items: start;
 }
 
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
+ol {
+  padding-left: 1.2rem;
+}
+
+.panel-title {
+  margin-top: 0;
+  color: #8ed8ff;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+=======
 .note {
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 14px;
   padding: 20px;
+>>>>>>> main
 }
 
 .cta {
@@ -133,12 +294,24 @@ footer {
   border-top: 1px solid var(--line);
   padding: 22px 0;
   text-align: center;
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
+  color: #a7bbec;
+=======
   color: var(--muted);
+>>>>>>> main
 }
 
 @media (max-width: 760px) {
   .hero {
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
+    padding-top: 72px;
+  }
+
+  .hero-inner {
+    padding: 28px;
+=======
     padding-top: 70px;
+>>>>>>> main
   }
 
   .split {
