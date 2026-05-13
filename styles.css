@@ -1,4 +1,5 @@
 :root {
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
   --bg-0: #020617;
   --bg-1: #071337;
   --bg-2: #0c1f57;
@@ -10,6 +11,15 @@
   --line: #8aa2d64b;
   --text: #eaf0ff;
   --muted: #c8d5f7;
+=======
+  --bg: #f8fafc;
+  --text: #0f172a;
+  --muted: #475569;
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --white: #ffffff;
+  --line: #dbe3ee;
+>>>>>>> main
 }
 
 * {
@@ -18,6 +28,7 @@
 
 body {
   margin: 0;
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
   font-family: "Orbitron", "Inter", "Yu Gothic", sans-serif;
   color: var(--text);
   background:
@@ -38,10 +49,21 @@ body {
 
 .container {
   width: min(1080px, 92%);
+=======
+  font-family: "Inter", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.7;
+}
+
+.container {
+  width: min(1040px, 92%);
+>>>>>>> main
   margin: 0 auto;
 }
 
 .hero {
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
   padding: 96px 0 84px;
 }
 
@@ -90,6 +112,32 @@ h1 span {
 
 .lead {
   max-width: 670px;
+=======
+  background: linear-gradient(135deg, #e2e8f0, #f8fafc);
+  padding: 88px 0 72px;
+}
+
+.badge {
+  display: inline-block;
+  margin: 0 0 14px;
+  padding: 4px 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--primary-dark);
+  background: #dbeafe;
+  border-radius: 999px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4.2vw, 3.4rem);
+  line-height: 1.2;
+}
+
+.lead {
+  max-width: 640px;
+>>>>>>> main
   margin: 20px 0 0;
   color: var(--muted);
 }
@@ -103,6 +151,7 @@ h1 span {
 
 .btn {
   display: inline-block;
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
   padding: 12px 20px;
   border-radius: 14px;
   text-decoration: none;
@@ -130,10 +179,36 @@ h1 span {
 
 .section {
   padding: 74px 0;
+=======
+  padding: 12px 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn.primary {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.btn.primary:hover {
+  background: var(--primary-dark);
+}
+
+.btn.ghost {
+  border: 1px solid var(--line);
+  color: var(--text);
+  background: var(--white);
+}
+
+.section {
+  padding: 70px 0;
+>>>>>>> main
 }
 
 h2 {
   margin-top: 0;
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
   font-size: clamp(1.5rem, 3.2vw, 2.3rem);
   letter-spacing: 0.1em;
   color: #dff3ff;
@@ -141,11 +216,19 @@ h2 {
 
 .grid {
   margin-top: 24px;
+=======
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+}
+
+.grid {
+  margin-top: 22px;
+>>>>>>> main
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
 }
 
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
 .card,
 .panel {
   background: linear-gradient(150deg, #f1f5ff12, #a4bcf512);
@@ -164,6 +247,17 @@ h2 {
   background: linear-gradient(180deg, #5f79d012, #5ad0f912);
   border-top: 1px solid #9ab0e32f;
   border-bottom: 1px solid #9ab0e32f;
+=======
+.card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 22px;
+}
+
+.alt {
+  background: #eef2ff;
+>>>>>>> main
 }
 
 .split {
@@ -173,6 +267,7 @@ h2 {
   align-items: start;
 }
 
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
 ol {
   padding-left: 1.2rem;
 }
@@ -182,6 +277,13 @@ ol {
   color: #8ed8ff;
   font-weight: 800;
   letter-spacing: 0.1em;
+=======
+.note {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 20px;
+>>>>>>> main
 }
 
 .cta {
@@ -192,16 +294,24 @@ footer {
   border-top: 1px solid var(--line);
   padding: 22px 0;
   text-align: center;
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
   color: #a7bbec;
+=======
+  color: var(--muted);
+>>>>>>> main
 }
 
 @media (max-width: 760px) {
   .hero {
+<<<<<<< codex/create-simple-lp-using-yuka-codex-practice-jx914d
     padding-top: 72px;
   }
 
   .hero-inner {
     padding: 28px;
+=======
+    padding-top: 70px;
+>>>>>>> main
   }
 
   .split {
